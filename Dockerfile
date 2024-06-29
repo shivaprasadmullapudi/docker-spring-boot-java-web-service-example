@@ -8,6 +8,7 @@ RUN apk update && apk add bash
 # Set the working directory to /app
 WORKDIR /app
 
+
 # Copy the fat jar into the container at /app
 COPY /target/docker-java-app-example.jar /app
 
