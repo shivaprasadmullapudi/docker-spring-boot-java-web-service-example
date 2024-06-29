@@ -20,8 +20,8 @@ pipeline {
             steps {
                 script{
                     withDockerRegistry(credentialsId: 'jenkins-token') {
-                        sh "docker build -t shivaprasadmullapudi359/dockerrepo:tag124 ."
-                        sh "docker push shivaprasadmullapudi359/dockerrepo:tag124"
+                        sh "docker build -t shivaprasadmullapudi359/dockerrepo:tag126 ."
+                        sh "docker push shivaprasadmullapudi359/dockerrepo:tag126"
    
                    }
                 }
